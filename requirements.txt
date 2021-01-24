@@ -4,6 +4,5 @@ docx2txt==0.8
 bert_extractive_summarizer==0.6.1
 requests==2.24.0
 google_trans_new==1.1.9
-newspaper==0.1.0.7
 PyPDF2==1.26.0
 summarizer==0.0.7
