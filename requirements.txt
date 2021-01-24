@@ -1,9 +1,8 @@
 google_trans_new==1.1.9
-bert_extractive_summarizer==0.6.1
 docx2txt==0.8
 streamlit==0.73.1
 newspaper3k==0.2.8
+summarizer==0.0.7
 requests==2.24.0
 newspaper==0.1.0.7
 PyPDF2==1.26.0
-summarizer==0.0.7
