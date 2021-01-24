@@ -68,6 +68,7 @@ def translatoor(origin, dest):
 
 
 # Get the text of a web page
+@st.cache
 def article_url(url):
     article = fulltext(requests.get(url, headers=headers).text)
     return article
