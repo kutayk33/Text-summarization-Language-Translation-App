@@ -6,7 +6,8 @@ from google_trans_new import google_translator
 from newspaper import fulltext
 import requests
 
-# File Processing
+
+## File Processing
 import docx2txt
 from PyPDF2 import PdfFileReader
 
