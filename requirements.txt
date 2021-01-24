@@ -6,3 +6,4 @@ requests==2.24.0
 google_trans_new==1.1.9
 PyPDF2==1.26.0
 summarizer==0.0.7
+torch==1.2.0+cpu
