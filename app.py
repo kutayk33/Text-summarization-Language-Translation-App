@@ -1,6 +1,8 @@
 ################# LIBRARIES #############
 import streamlit as st
-from summarizer import Summarizer, TransformerSummarizer
+from summarizer import TransformerSummarizer
+from summarizer import Summarizer
+
 from newspaper.api import languages
 from google_trans_new import google_translator
 from newspaper import fulltext
