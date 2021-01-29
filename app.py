@@ -111,12 +111,17 @@ def main():
     st.markdown(" ")
 
     st.write("You can listen to music while waiting 🎵")
-    audio_file = open("asli.mp3", "rb")
-    audio_bytes = audio_file.read()
-    st.audio(audio_bytes, format="audio/mp3")
-
-    st.write("You didn't like the first one? try this🎹")
-    audio_file = open("secret-garden.mp3", "rb")
+    music_select = st.selectbox(
+        "Select the Song",
+        (
+            "secret-garden",
+            "asli",
+            "stromae-papaoutai",
+            "ragnbone-human",
+            "indila-derniere-danse",
+        ),
+    )
+    audio_file = open("songs/" + music_select + ".mp3", "rb")
     audio_bytes = audio_file.read()
     st.audio(audio_bytes, format="audio/mp3")
     st.write("Or just continue without music 😁")
